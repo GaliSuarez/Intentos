@@ -8,7 +8,7 @@ source("https://raw.githubusercontent.com/GaliSuarez/Intentos/refs/heads/main/Fu
 Aqui tenemos un ejemplo practico para Valor futuro de anualidades
 ```
 # Creamos objetos con valores de entrada
-A=150000
+A=1500
 i=0.05
 r=0.05/12
 Tp=60
