@@ -13,7 +13,7 @@ i=0.05
 r=0.05/12
 Tp=60
 # calculamos el valor futuro
-VFt=ValorFuturoT
+VFt=ValorFuturoT(A=A,r=r,Tp=Tp)
 # imprimimos el resultado
 VFt
 ```
