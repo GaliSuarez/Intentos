@@ -41,3 +41,14 @@ Tp=Plazos(VFt=VFt,r=r,A=A)
 # imprimimos el resultado
 Tp
 ```
+Aqui tenemos un ejemplo practico para tasa del periodo
+```
+# Creamos objetos con valores de entrada
+VFt=102009.1
+Tp=60
+A=1500
+# calculamos el valor futuro
+r=TasaPer(VFt=VFt,r=r,A=A)
+# imprimimos el resultado
+r
+```
