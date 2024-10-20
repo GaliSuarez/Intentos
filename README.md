@@ -17,3 +17,15 @@ VFt=ValorFuturoT(A=A,r=r,Tp=Tp)
 # imprimimos el resultado
 VFt
 ```
+Aqui tenemos un ejemplo practico para anualidades
+```
+# Creamos objetos con valores de entrada
+VFt=102009.1
+i=0.05
+r=0.05/12
+Tp=60
+# calculamos el valor futuro
+A=Anualidades(VFt=VFt,r=r,Tp=Tp)
+# imprimimos el resultado
+A
+```
