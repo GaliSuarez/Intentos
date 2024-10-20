@@ -25,7 +25,7 @@ i=0.05
 r=0.05/12
 Tp=60
 # calculamos el valor futuro
-A=Anualidades(VFt=VFt,r=r,Tp=Tp)
+A=Anualidad(VFt=VFt,r=r,Tp=Tp)
 # imprimimos el resultado
 A
 ```
