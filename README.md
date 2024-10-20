@@ -29,3 +29,15 @@ A=Anualidad(VFt=VFt,r=r,Tp=Tp)
 # imprimimos el resultado
 A
 ```
+Aqui tenemos un ejemplo practico para plazos
+```
+# Creamos objetos con valores de entrada
+VFt=102009.1
+i=0.05
+r=0.05/12
+A=1500
+# calculamos el valor futuro
+Tp=TasaPer(VFt=VFt,r=r,Tp=Tp)
+# imprimimos el resultado
+Tp
+```
