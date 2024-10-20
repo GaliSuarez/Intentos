@@ -52,3 +52,14 @@ r=TasaPer(VFt=VFt,Tp=Tp,A=A)
 # imprimimos el resultado
 r
 ```
+Aqui tenemos un ejemplo practico para tasa del periodo
+```
+# Creamos objetos con valores de entrada
+r=
+Tp=60
+A=1500
+# calculamos el valor futuro
+r=TasaPer(VFt=VFt,Tp=Tp,A=A)
+# imprimimos el resultado
+r
+```
