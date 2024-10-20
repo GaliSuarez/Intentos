@@ -48,7 +48,7 @@ VFt=102009.1
 Tp=60
 A=1500
 # calculamos el valor futuro
-r=TasaPer(VFt=VFt,r=r,A=A)
+r=TasaPer(VFt=VFt,Tp=Tp,A=A)
 # imprimimos el resultado
 r
 ```
