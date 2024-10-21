@@ -86,3 +86,14 @@ TpVA=PlazosVA(rVA=rVA,VAt=VAt,Ava=Ava)
 # imprimimos el resultado
 TpVA
 ```
+Aqui tenemos un ejemplo practico para tasa del periodo
+```
+# Creamos objetos con valores de entrada
+VAt=3000
+TpVA=48
+Ava=66.41
+# calculamos la tasa del periodo
+rVA=TasaPer(VAt=VAt,TpVA=TpVA,Ava=Ava)
+# imprimimos el resultado
+rVA
+```
