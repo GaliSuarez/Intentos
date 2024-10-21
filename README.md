@@ -3,7 +3,7 @@ Aquí pondré mis intentos de diferentes temas
 
 ## Funciones de Anualidades Vencidas
 ```
-source("https://raw.githubusercontent.com/GaliSuarez/Intentos/refs/heads/main/FuncionesAnualidadVencida%20(1).R")
+source("https://github.com/GaliSuarez/Intentos/blob/main/FuncionesAnualidadVencida%20(2).R")
 ```
 Aqui tenemos un ejemplo practico para Valor futuro de anualidades
 ```
