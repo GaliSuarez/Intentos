@@ -24,7 +24,7 @@ VFt=102009.1
 i=0.05
 r=0.05/12
 Tp=60
-# calculamos el valor futuro
+# calculamos el valor de la anualidad
 A=Anualidad(VFt=VFt,r=r,Tp=Tp)
 # imprimimos el resultado
 A
@@ -36,7 +36,7 @@ VFt=102009.1
 i=0.05
 r=0.05/12
 A=1500
-# calculamos el valor futuro
+# calculamos el numero de plazos
 Tp=Plazos(VFt=VFt,r=r,A=A)
 # imprimimos el resultado
 Tp
@@ -47,19 +47,42 @@ Aqui tenemos un ejemplo practico para tasa del periodo
 VFt=102009.1
 Tp=60
 A=1500
-# calculamos el valor futuro
+# calculamos la tasa del periodo
 r=TasaPer(VFt=VFt,Tp=Tp,A=A)
 # imprimimos el resultado
 r
 ```
-Aqui tenemos un ejemplo practico para tasa del periodo
+Aqui tenemos un ejemplo practico para Valor actual 
 ```
 # Creamos objetos con valores de entrada
-r=
-Tp=60
-A=1500
-# calculamos el valor futuro
-r=TasaPer(VFt=VFt,Tp=Tp,A=A)
+rVA=0.12/TpVA
+TpVA=48
+Ava=66.41
+# calculamos el valor actual
+VAt=ValorActualT(rVA=rVA,TpVA=TpVA,Ava=Ava)
 # imprimimos el resultado
-r
+VAt
+```
+
+Aqui tenemos un ejemplo practico para Anualidad 
+```
+# Creamos objetos con valores de entrada
+rVA=0.12/TpVA
+TpVA=48
+VAt=3000
+# calculamos el valor de la anualidad
+Ava=AnualidadVAt(rVA=rVA,TpVA=TpVA,Ava=Ava)
+# imprimimos el resultado
+Ava
+```
+Aqui tenemos un ejemplo practico para Plazos
+```
+# Creamos objetos con valores de entrada
+rVA=0.12/48
+Ava=66.41
+VAt=3000
+# calculamos el valor de la anualidad
+Ava=AnualidadVAt(rVA=rVA,TpVA=TpVA,Ava=Ava)
+# imprimimos el resultado
+Ava
 ```
