@@ -55,8 +55,8 @@ r
 Aqui tenemos un ejemplo practico para Valor actual 
 ```
 # Creamos objetos con valores de entrada
-rVA=0.12/TpVA
 TpVA=48
+rVA=0.12/TpVA
 Ava=66.41
 # calculamos el valor actual
 VAt=ValorActualT(rVA=rVA,TpVA=TpVA,Ava=Ava)
@@ -67,8 +67,8 @@ VAt
 Aqui tenemos un ejemplo practico para Anualidad 
 ```
 # Creamos objetos con valores de entrada
-rVA=0.12/TpVA
 TpVA=48
+rVA=0.12/TpVA
 VAt=3000
 # calculamos el valor de la anualidad
 Ava=AnualidadVAt(rVA=rVA,TpVA=TpVA,Ava=Ava)
