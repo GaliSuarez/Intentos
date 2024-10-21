@@ -82,7 +82,7 @@ rVA=0.12/48
 Ava=66.41
 VAt=3000
 # calculamos el valor de la anualidad
-TpVA=PlazosVA(rVA=rVA,VAt=TVAt,Ava=Ava)
+TpVA=PlazosVA(rVA=rVA,VAt=VAt,Ava=Ava)
 # imprimimos el resultado
 TpVA
 ```
